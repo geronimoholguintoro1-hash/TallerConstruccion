@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="QkEYRVYQm1jQ4JV3elYq">
+    <mxGraphModel dx="1012" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="habitacion" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=40;rounded=0;html=1;fontSize=18;" value="Habitacion" vertex="1">
+          <mxGeometry height="60" width="500" x="180" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="atributos" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;whiteSpace=wrap;fontSize=14;" value="- numero : int&lt;br&gt;- tipo : String&lt;br&gt;- precioNoche : double&lt;br&gt;- ocupada : boolean" vertex="1">
+          <mxGeometry height="120" width="500" x="180" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="constructores" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;whiteSpace=wrap;fontSize=14;" value="&lt;b&gt;Constructores&lt;/b&gt;&lt;br&gt;+ Habitacion(numero : int, tipo : String, precioNoche : double, ocupada : boolean)&lt;br&gt;+ Habitacion(numero : int, tipo : String)" vertex="1">
+          <mxGeometry height="110" width="500" x="180" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="metodos" parent="1" style="text;html=1;align=left;verticalAlign=top;spacingLeft=15;spacingTop=10;whiteSpace=wrap;fontSize=14;" value="&lt;b&gt;Métodos&lt;/b&gt;&lt;br&gt;+ ocupar() : void&lt;br&gt;+ estaDisponible() : boolean&lt;br&gt;+ calcularEstadia(noches : int) : double&lt;br&gt;+ calcularEstadia(noches : int, descuento : double) : double&lt;br&gt;+ mostrarInformacion() : void" vertex="1">
+          <mxGeometry height="170" width="500" x="180" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="qrLTBz2OqV6qPVJimVQV-2" edge="1" parent="1" source="metodos" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1.007;exitY=0.959;exitDx=0;exitDy=0;exitPerimeter=0;" target="atributos" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qrLTBz2OqV6qPVJimVQV-3" edge="1" parent="1" source="metodos" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1.004;entryY=0.959;entryDx=0;entryDy=0;entryPerimeter=0;" target="metodos" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qrLTBz2OqV6qPVJimVQV-4" edge="1" parent="1" source="metodos" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="atributos" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qrLTBz2OqV6qPVJimVQV-5" edge="1" parent="1" source="atributos" style="endArrow=none;html=1;rounded=0;exitX=-0.005;exitY=0.128;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" target="atributos" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qrLTBz2OqV6qPVJimVQV-6" edge="1" parent="1" source="constructores" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="constructores" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="330" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qrLTBz2OqV6qPVJimVQV-7" edge="1" parent="1" source="metodos" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="330" as="sourcePoint" />
+            <mxPoint x="690" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
